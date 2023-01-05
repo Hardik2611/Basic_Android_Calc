@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HardikGoyal_calc_Rel</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="msg1">0</string>
+    <string name="msg2">0</string>
+    <string name="ref">Refresh</string>
+    <string name="result">Made by Hardik Goyal</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/result"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="606dp"
+        android:ems="10"
+        android:hint="@string/msg1"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="545dp"
+        android:ems="10"
+        android:hint="@string/msg2"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="398dp"
+        android:text="@string/sub"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="457dp"
+        android:text="@string/add"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="341dp"
+        android:text="@string/mul"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/div"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="212dp"
+        android:contentDescription="@string/ref"
+        android:background="@color/green"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+
+</RelativeLayout>
